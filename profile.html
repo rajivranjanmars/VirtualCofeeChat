@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <a href="/index.html"><img src="/data/VCC_1.png" width=80px; height=60px alt="app name"></a>
+        <h1 style="color:burlywood; display: inline-block ;justify-content:center;font-size:50px">Virtual Cofee Chat
+        </h1>
+    </header>
+    <main>
+        <aside>
+            <button>
+                <a href="/profile.html"> My profile&nbsp;&nbsp; <i class="fa fa-user"></i> </a>
+            </button>
+            <button>
+                <a href="/CustomEvent.html"> Create Custom Event&nbsp;&nbsp; <i class="fa fa-calendar-check-o"></i> </a>
+            </button>
+            <button>
+                <a href="/publicEvents.html"> Public Event&nbsp;&nbsp; <i class="fa fa-calendar-check-o"></i> </a>
+            </button>
+            <button>
+                <a href="/profile.html"> Log Out&nbsp;&nbsp; <i class="fa fa-exclamation-circle"></i> </a>
+            </button>
+
+
+        </aside>
+        <section class="content" style="padding:30px">
+            <div class="event-head">
+
+                <div class = "Container">
+
+                    <p>Employee Name: <span>Mike Smith</span></p>
+                    <p>Employee Id: <span>123456789</span></p>
+                    <p>Work Email: <span>employee@xyz.com</span></p>
+                    <p>Job Title: <span>Senior Developer </span></p>
+                    <p><input type="checkbox" id="invitee" name="invite" value="invite">
+                        <label for="invite"> meeting Data Sciences</label><br>
+                    </p>
+                    <p>Intrests: </p>
+                    <!---Add data here-->
+                    <p><input type="checkbox" id="python" name="python" value="python">
+                        <label for="python">python</label><br>
+                    </p>
+                    <p><input type="checkbox" id="Data Science" name="Data Science" value="Data Science">
+                        <label for="Data Science"> meeting Data Science</label><br>
+                    </p>
+                    <p><input type="checkbox" id="Development" name="Development" value="Development">
+                        <label for="Development">Development</label><br>
+                    </p>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
