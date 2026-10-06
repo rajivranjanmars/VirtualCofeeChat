@@ -20,4 +20,4 @@ Eraj Gillani, Tafadzwa Machengo, Rajiv Ranjan, Nouhaila Innan
 
 ## Author
 
-Author: [rajivranjanmars](https://rajivranjana.in).
+Author: [Rajiv Ranjan](https://rajivranjan.in).
